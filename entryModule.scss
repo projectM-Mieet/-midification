@@ -1,0 +1,163 @@
+// .container{
+//     width:100%;
+//     margin:0 auto;
+//     padding:0 30px;
+//     max-width: 960px;
+.entry-wrapper{
+    width: 100%;
+    padding: 0vw 2vw;
+    max-width: 1280px;
+    margin: 0;
+    margin-right: 0;
+    .entry-message{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        p{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 2%;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            // @media (max-width: 767px){
+            //     font-size: 24px;
+            // }
+            // @media (max-width: 550px){
+            //     font-size: 16px;
+            // }
+            @media(max-width: 700px) {
+                font-size:1.5vw;
+            }
+            @media screen and (min-width:700px) and ( max-width:1279px) {
+                font-size:2vw;
+            }
+        }
+       ul{
+        display: flex;
+        flex-flow: wrap;
+        justify-content:space-evenly;
+        width: 100%;
+        padding: 5%;
+        list-style: none;
+        list-style-position: inside;
+        text-align: left;
+        padding: 0;
+        font-size: 24px;
+            //font-weight: bold;
+            // @media (max-width: 767px){
+            //     font-size: 24px;
+            // }
+            // @media (max-width: 550px){
+            //     font-size: 16px;
+            // }
+            @media(max-width: 700px) {
+                font-size:1.5vw;
+            }
+            @media screen and (min-width:700px) and ( max-width:1279px) {
+                font-size:2vw;
+            }
+        li{
+            box-sizing: border-box;
+            background-color: rgba(148, 238, 160, 0.668);
+            text-align: center;
+            width: 49%;
+            float: left;
+            margin-bottom: 1vh;
+            justify-content: space-between;
+        }
+       } 
+    }
+    .entryButtn-area{
+        margin: auto;
+        font-size: 20px;
+        .adoption-Buttuns{
+            margin-bottom:2%;
+            width:100%;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            @media(max-width: 700px) {
+                    display: flex;
+                    flex-flow: column;
+                }
+                @media screen and (min-width:700px) and (max-width:1279px) {
+                    display: flex;
+                    flex-flow: row;
+                    font-size: 2vw;
+                }
+            .btn-flat-border{
+                width: 49%;
+                box-sizing: border-box;
+                padding: 1em 2em;
+                text-decoration: none;
+                text-align: center;
+                color: #ff6767;
+                border: solid 2px #ff6767;
+                border-radius: 3px;
+                transition: .4s;
+                @media(max-width: 700px) {
+                        height: 45%;
+                        width: 100%;
+                        margin-top: 10px;
+                        padding: 1%;
+                    }
+                }
+                .btn-flat-border:hover {
+                background: #ff6767;
+                color: white;
+            }
+        }
+        .contact-Buttuns{
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            @media(max-width: 700px) {
+                    display: flex;
+                    flex-flow: column;
+                }
+            
+                @media screen and (min-width:700px) and (max-width:1279px) {
+                    display: flex;
+                    flex-flow: row;
+                    font-size: 2vw;
+                }
+            .btn-flat-border {
+                
+                text-align: center;
+                width: 49%;
+                display: inline-block;
+                display:flex;
+                flex-flow: column;
+                padding: 1em 3em;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                border-radius: 3px;
+                transition: .4s;
+                @media(max-width: 700px) {
+                        height: 45%;
+                        width: 100%;
+                        margin-top: 10px;
+                        padding: 1%;
+                    }
+                }
+                
+                    @media screen and (min-width:700px) and (max-width:12px) {
+                        font-size: 2vw;
+                    }
+            }
+
+            .btn-flat-border:hover {
+                background: gray;
+                color: white;
+            }
+        }
+        .footer{
+            height: 40px;
+        }
+    }
+// }

@@ -1,0 +1,177 @@
+.Article{
+    margin:0 ;
+    width:100%;
+    max-width: 1280px;
+    // padding-right:30px;
+    // padding-left:30px;  
+    // background-color:	#d2ffd2;
+    .Article_component {
+        width:100%;
+        margin-top: 20px;
+        .welfare_upper_menu{
+           margin-top: 15px;
+           width:100%;
+           font-size:20px;
+           @media(max-width: 700px) {
+                font-size:1.5vw;
+            }
+            @media screen and (min-width:700px) and ( max-width:960px) {
+                font-size:2vw;
+            }
+        }
+        ul{
+           padding:0;
+           list-style:none;
+           margin-top: 20px;
+           width:100%;
+           font-size:20px;
+           @media(max-width: 700px) {
+                font-size:1.5vw;
+            }
+            @media screen and (min-width:700px) and ( max-width:960px) {
+                font-size:2vw;
+            }
+        }
+        // h2{
+        //     font-weight:normal;
+        //     margin-top: 20px;
+        //     font-size:20px;
+        //    @media(max-width: 700px) {
+        //         font-size:1.5vw;
+        //     }
+        //     @media screen and (min-width:700px) and ( max-width:960px) {
+        //         font-size:2vw;
+        //     }
+        // }
+        // .first_employee_article{
+        //    margin-top: 20px;
+        //    display:flex;
+        //    flex-direction:row;
+        //    gap:15px;
+        //    img{
+        //      display:block;
+        //      width:30%;
+        //    }
+           
+        //    font-size:20px;
+        //    @media(max-width: 700px) {
+        //         font-size:1.5vw;
+        //     }
+        //     @media screen and (min-width:700px) and ( max-width:960px) {
+        //         font-size:2vw;
+        //     }
+        // }
+        // .second_employee_article{
+        //    margin-top: 20px;
+        //    display:flex;
+        //    flex-direction:row;
+        //    gap:15px;
+        //    img{
+        //     display:block;
+        //     width:30%;
+        //   }
+        //   font-size:20px;
+        //   @media(max-width: 700px) {
+        //        font-size:1.5vw;
+        //    }
+        //    @media screen and (min-width:700px) and ( max-width:960px) {
+        //        font-size:2vw;
+        //    }
+        // }
+        // .third_employee_article{
+        //    margin-top: 20px;
+        //    display:flex;
+        //    flex-direction:row;
+        //    gap:15px;
+        //    img{
+        //     display:block;
+        //     width:30%;
+        //   }
+        //   font-size:20px;
+        //   @media(max-width: 700px) {
+        //        font-size:1.5vw;
+        //    }
+        //    @media screen and (min-width:700px) and ( max-width:960px) {
+        //        font-size:2vw;
+        //    }
+        // }
+        .box{
+            text-align: center;
+            h1{
+            display: inline-block;
+            width:100%;
+            font-size: 40px;
+            text-align:left;
+            color:#05b142;
+            @media(max-width: 700px) {
+                font-size:3vw;
+            }
+            @media screen and (min-width:700px) and ( max-width:1279px) {
+                font-size:3.5vw;
+            }
+            }
+        }
+        .flex_container{
+            margin-top: 20px;
+            display:flex;
+            flex-direction:row;
+            gap:20px;
+            @media(max-width: 700px) {
+                flex-direction:column;
+                column-gap:20px;
+            }
+           
+            .flex_item_text{
+                margin: auto;
+                div{
+                    
+                    font-size:20px;
+                    @media(max-width: 700px) {
+                        font-size:2.5vw;
+                        
+                    }
+                    @media screen and (min-width:700px) and ( max-width:1279px) {
+                        font-size:2vw;
+                    }
+                }
+                button{
+                    margin-top:20px;
+                    background-color:white;
+                    color:red;
+                    width:100%;
+                    display:block;
+                    height:50px;
+                    border:solid 1px red;
+                    border-radius: 40px;
+                    }
+                .btn{
+                    margin:auto;
+                    display:block;
+                    text-decoration: none;
+                    color:red;
+                    font-size:20px;
+                    @media(max-width: 700px) {
+                        font-size:3.5vw;
+                    }
+                    @media screen and (min-width:700px) and ( max-width:1279px) {
+                        font-size:2vw;
+                        
+                    }
+
+                }
+            }
+            img{
+                display:block;
+                margin:0 auto;
+                width:45vw;
+                object-fit: cover;
+                @media(max-width: 700px) {
+                    width:80%;
+                }
+               
+            }
+
+        }
+        
+    }
+}
